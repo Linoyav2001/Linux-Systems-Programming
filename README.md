@@ -5,15 +5,15 @@ A collection of C programs demonstrating core Operating System concepts, Inter-P
 
 ## Projects Included
 
-### 1. Mini Linux Shell (`/Mini-Shell`)
+### 1. [Mini Linux Shell](mini_shell.c)
 A custom lightweight Unix shell implementation.
 * **Features:** Process creation (`fork`, `wait`), dynamic `$PATH` variable resolution, string parsing, and command execution (`execv`).
 
-### 2. Process Synchronization (`/IPC-Semaphores`)
+### 2. [Process Synchronization](ipc_semaphores.c)
 A concurrency controller that strictly synchronizes the output of 5 independent child processes.
 * **Features:** System V Semaphores, avoiding race conditions during concurrent execution, and strict sequential ordering across separate processes.
 
-### 3. Concurrent Shared Memory (`/Shared-Memory-Mutex`)
+### 3. [Concurrent Shared Memory](shared_memory_mutex.c)
 A program demonstrating safe concurrent writes by 100 child processes to a shared memory segment.
 * **Features:** Shared Memory allocation (`shmget`, `shmat`), Critical Section protection using a binary semaphore (Mutex), and atomic operations.
 
